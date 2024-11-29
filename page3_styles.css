@@ -1,0 +1,84 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Styling the button container */
+.division {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Graph display box */
+#graphBox {
+    margin-top: 30px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button#startBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+button#startBtn:hover {
+    background-color: #218838;
+}
+
+button#stopBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+button#stopBtn:hover {
+    background-color: #c82333;
+}
+
+canvas {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}

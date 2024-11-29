@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;  /* Reduced margin-top */
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #333;
+    padding: 8px;  /* Reduced padding */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 8px;  /* Reduced margin between items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;  /* Slightly smaller font size */
+    padding: 10px 18px;  /* Reduced padding */
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+/* Mobile View: Adjusting for smaller screens */
+@media (max-width: 600px) {
+    nav ul li {
+        flex: 1 0 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        font-size: 14px;  /* Further reduced font size for mobile */
+        padding: 8px 12px;  /* Less padding on mobile */
+    }
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+nav ul li a:active {
+    background-color: #3e8e41;
+}
+
+/* Division Styles */
+.division {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;  /* Reduced margin */
+    padding: 15px;  /* Reduced padding */
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    max-width: 450px;  /* Reduced max-width */
+}
+
+/* Button Styles */
+button {
+    padding: 12px 25px;  /* Reduced button size */
+    font-size: 14px;  /* Reduced font size */
+    margin: 8px;  /* Reduced margin between buttons */
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effects */
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonocardiograph - Real-Time Audio Visualization</title>
+    <link rel="stylesheet" href="page3_styles.css"> <!-- Link to external CSS file -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js library for graph -->
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="page1.html">Listen Real-Time Sound</a></li>
+            <li><a href="page2.html">Record</a></li>
+            <li><a href="page3.html">Phonocardiograph</a></li>
+            <li><a href="page4.html">Telemedicine</a></li>
+        </ul>
+    </nav>
+
+    <!-- Phonocardiograph Section -->
+    <div class="division">
+        <h1>Phonocardiograph</h1>
+        
+        <!-- Start and Stop Buttons -->
+        <button id="startBtn">Start</button>
+        <button id="stopBtn">Stop</button>
+        
+        <!-- Box to Display Graph -->
+        <div id="graphBox">
+            <h3>Phonocardiograph Graph</h3>
+            <canvas id="myChart" width="400" height="100"></canvas>
+        </div>
+    </div>
+
+    <script src="page3_app.js"></script> <!-- Link to external JavaScript file -->
+
+</body>
+</html>

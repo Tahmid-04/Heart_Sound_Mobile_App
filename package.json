@@ -1,0 +1,15 @@
+{
+  "name": "mobile-app",
+  "version": "1.0.0",
+  "main": "audio_test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "speaker": "^0.5.5"
+  }
+}
